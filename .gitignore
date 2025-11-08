@@ -1,0 +1,19 @@
+# Ignore build folders
+build/
+poco_http/build/
+poco_server/build/
+
+# Ignore zip archives
+poco_server_project.zip
+
+# Ignore editor settings
+.vscode/
+
+# Ignore CMake-generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.out
+*.exe

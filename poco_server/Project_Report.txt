@@ -1,0 +1,48 @@
+--------------------------------------------------
+Project: DNS Resolver & HTTP Server using POCO C++
+Name: Nidhi C N
+Duration: 5 Days
+--------------------------------------------------
+
+Overview:
+This project demonstrates how to build a DNS Resolver and simple HTTP server using the POCO C++ Libraries.
+It supports HTTP requests, route handling, and dynamic responses.
+
+--------------------------------------------------
+Day-wise Progress:
+
+Day 1: Project setup, POCO installation, and DNS basics.
+Day 2: Implemented DNS/HTTP query handling using Poco::Net.
+Day 3: Built a persistent POCO server with caching-like functionality.
+Day 4: Added recursive route handling (/about, /hello, /time, /404).
+Day 5: Tested, optimized (Release build), and documented the project.
+
+--------------------------------------------------
+Technologies Used:
+- C++17
+- POCO C++ Libraries (Net, Util, Foundation)
+- CMake
+- Linux Environment
+
+--------------------------------------------------
+Execution Steps:
+1. mkdir build && cd build
+2. cmake ..
+3. make
+4. ./poco_server
+Then visit http://127.0.0.1:9090
+
+--------------------------------------------------
+Testing:
+Verified using curl and browser for routes:
+- / → Root page
+- /about → About page
+- /hello → Hello message
+- /time → Displays server time
+- Invalid routes → 404 page
+
+--------------------------------------------------
+Result:
+Successfully built a functional, multi-route C++ web server using POCO with optimized performance.
+
+--------------------------------------------------
